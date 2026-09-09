@@ -1,0 +1,20 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -5008574378457742967
+  },
+  "m_Name": "Frigid_Wasteland",
+  "_displayName": "寒帶荒原",
+  "_randomList": [
+    {
+      "name": "",
+      "id": 103,
+      "weight": 357
+    }
+  ]
+}

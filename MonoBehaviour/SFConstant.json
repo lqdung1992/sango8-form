@@ -1,0 +1,361 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 4418423382116247598
+  },
+  "m_Name": "SFConstant",
+  "_minWorldmapSize": {
+    "x": -1200.0,
+    "y": 0.0,
+    "z": -750.0
+  },
+  "_maxWorldmapSize": {
+    "x": 1200.0,
+    "y": 0.0,
+    "z": 750.0
+  },
+  "_camMoveSpeeds": [
+    50.0,
+    200.0,
+    500.0,
+    500.0
+  ],
+  "_camSwitchDurations": [
+    0.6,
+    0.5,
+    0.8,
+    0.3
+  ],
+  "_cityCameraOffset": {
+    "x": 0.0,
+    "y": -0.5,
+    "z": 0.0
+  },
+  "_stateToCameraSettings": [
+    {
+      "_positionY": 20.0,
+      "_rotationX": 25.0,
+      "_rotationY": -15.0,
+      "_fov": 45.0,
+      "_minX": 0.0,
+      "_maxX": 0.0,
+      "_minZ": 0.0,
+      "_maxZ": 0.0,
+      "_china_minX": 0.0,
+      "_china_maxX": 0.0,
+      "_china_minZ": 0.0,
+      "_china_maxZ": 0.0
+    },
+    {
+      "_positionY": 35.0,
+      "_rotationX": 35.0,
+      "_rotationY": 0.0,
+      "_fov": 45.0,
+      "_minX": -1100.0,
+      "_maxX": 1065.0,
+      "_minZ": -640.0,
+      "_maxZ": 660.0,
+      "_china_minX": -1100.0,
+      "_china_maxX": 1100.0,
+      "_china_minZ": -640.0,
+      "_china_maxZ": 660.0
+    },
+    {
+      "_positionY": 180.0,
+      "_rotationX": 50.0,
+      "_rotationY": 0.0,
+      "_fov": 45.0,
+      "_minX": -930.0,
+      "_maxX": 930.0,
+      "_minZ": -800.0,
+      "_maxZ": 390.0,
+      "_china_minX": -930.0,
+      "_china_maxX": 930.0,
+      "_china_minZ": -800.0,
+      "_china_maxZ": 390.0
+    },
+    {
+      "_positionY": 1200.0,
+      "_rotationX": 90.0,
+      "_rotationY": 0.0,
+      "_fov": 50.0,
+      "_minX": -180.0,
+      "_maxX": 200.0,
+      "_minZ": -180.0,
+      "_maxZ": 180.0,
+      "_china_minX": -1330.0,
+      "_china_maxX": 450.0,
+      "_china_minZ": -1050.0,
+      "_china_maxZ": 760.0
+    },
+    {
+      "_positionY": 1800.0,
+      "_rotationX": 90.0,
+      "_rotationY": 0.0,
+      "_fov": 50.0,
+      "_minX": -20.0,
+      "_maxX": -20.0,
+      "_minZ": 0.0,
+      "_maxZ": 0.0,
+      "_china_minX": -840.0,
+      "_china_maxX": -20.0,
+      "_china_minZ": -770.0,
+      "_china_maxZ": 480.0
+    }
+  ],
+  "_sfCameraSplineMinHeight": 200.0,
+  "_sfNormalCameraInterpolations": [
+    0.3
+  ],
+  "_sfDensitySettings": [
+    {
+      "name": "高視角",
+      "minBoundingHeight": 185.0,
+      "maxBoundingHeight": 200.0,
+      "boundingDistances": [
+        470.0
+      ]
+    },
+    {
+      "name": "一般視角",
+      "minBoundingHeight": 79.0,
+      "maxBoundingHeight": 80.0,
+      "boundingDistances": [
+        250.0
+      ]
+    },
+    {
+      "name": "低視角(不穿山)",
+      "minBoundingHeight": 61.0,
+      "maxBoundingHeight": 62.0,
+      "boundingDistances": [
+        190.0
+      ]
+    }
+  ],
+  "_camBezierZoomIn": {
+    "ctrlXmin": 0.0,
+    "ctrlXmax": 0.0,
+    "ctrlYmin": 500.0,
+    "ctrlZmin": 0.0,
+    "ctrlZmax": 0.0,
+    "rectXmin": 1.0,
+    "rectXmax": 0.0,
+    "rectZmin": 1.0,
+    "rectZmax": 0.0
+  },
+  "_camBezierZoomOut": {
+    "ctrlXmin": 0.0,
+    "ctrlXmax": 0.0,
+    "ctrlYmin": 500.0,
+    "ctrlZmin": 0.0,
+    "ctrlZmax": 0.0,
+    "rectXmin": 1.0,
+    "rectXmax": 0.0,
+    "rectZmin": 1.0,
+    "rectZmax": 0.0
+  },
+  "_camBezierZoomIn9": {
+    "ctrlXmin": -500.0,
+    "ctrlXmax": 100.0,
+    "ctrlYmin": 400.0,
+    "ctrlZmin": -500.0,
+    "ctrlZmax": 100.0,
+    "rectXmin": -700.0,
+    "rectXmax": 700.0,
+    "rectZmin": -650.0,
+    "rectZmax": 300.0
+  },
+  "_camBezierZoomOut9": {
+    "ctrlXmin": -500.0,
+    "ctrlXmax": 100.0,
+    "ctrlYmin": 400.0,
+    "ctrlZmin": -500.0,
+    "ctrlZmax": 100.0,
+    "rectXmin": -700.0,
+    "rectXmax": 700.0,
+    "rectZmin": -650.0,
+    "rectZmax": 300.0
+  },
+  "_cursorLeftRightEdge": 0.005,
+  "_cursorTopBottomEdge": 0.009,
+  "_cursorMoveSpeed": {
+    "x": 0.4,
+    "y": 0.4
+  },
+  "_perSecondsOneDay": 1.5,
+  "_maxGameDaysFromFristDrama": 150,
+  "_perDaysOneMonth": 30,
+  "_monthToSeason": [
+    4,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    3,
+    3,
+    3,
+    4,
+    4
+  ],
+  "_maxConqueringDay": 360,
+  "_perReduceSoldierPercent": 0.0,
+  "_changeConqueringObjecrSizeByCameraState": [
+    1.2,
+    1.2,
+    1.2,
+    1.2
+  ],
+  "_conqueringObjectTitleOffset": [
+    5.0,
+    7.0,
+    10.0,
+    15.0
+  ],
+  "_randomObstacleTitleOffset": [
+    4.0,
+    6.0,
+    8.0,
+    3.0
+  ],
+  "_runningAniSpeed": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ],
+  "_legionDiscoverCoolDown": 5,
+  "_cityLevelDafaultRandomValue": [
+    {
+      "min": 0,
+      "max": 100
+    },
+    {
+      "min": 50,
+      "max": 200
+    },
+    {
+      "min": 100,
+      "max": 300
+    },
+    {
+      "min": 250,
+      "max": 500
+    },
+    {
+      "min": 400,
+      "max": 700
+    }
+  ],
+  "_cityDefaultAgricultureMultiple": 5,
+  "_cityDefaultMoneyMultiple": 5,
+  "_cityDefaultSoldierRotio": 0.1,
+  "_cityPeopleLimitAgricultureRatio": 0.7,
+  "_cityPeopleLimitBusinessRatio": 0.84000003,
+  "_cityPeopleLimitMaxPeopleRatio": 0.3,
+  "_cityPeopleAddWaitDays": 180,
+  "_cityPeopleAddRatio": 0.6,
+  "_citySoldierAddWaitDays": 360,
+  "_citySoldierAddRatio": 0.5,
+  "_cityPeopleCapacity": 0.7,
+  "_cityDevelopmentVar": 1.5,
+  "_citySoldierRatio": 0.04,
+  "_troopSoldierRevertRatio": 0.5,
+  "_decreaseSecurityAtferEnforceConscriptJob": 15,
+  "_addAgricultureRatio": 1.5,
+  "_addBusinessRatio": 1.5,
+  "_addTechnologyRatio": 1.5,
+  "_addConscriptRatio": 1.5,
+  "_addSecurityRatio": 1.0,
+  "_addTrainingRatio": 1.0,
+  "_addReputationRatio": 1.0,
+  "_maxExploitAndReputation": 999999999,
+  "_decreaseExploitAndReputationRatio": 0.5,
+  "_takeResouceRatio": 0.5,
+  "_fixedObstacleCoolDown": 90,
+  "_eatRationInCityRation": 0.0,
+  "_repairDefenceMoneyPerDay": 10,
+  "_explorePeopleProb": 25,
+  "_createChunkRandomObstacleDay": 30,
+  "_createChunkRandomObstacleNum": 1,
+  "_createChunkRandomObstaclePlayerRatio": 2,
+  "_obstaclePlaceY": 0.07,
+  "_aiRoutineDay": 10,
+  "_aiRecruitCardCount": [
+    1,
+    1,
+    1,
+    2
+  ],
+  "_aiStrategyCardCount": [
+    2,
+    3,
+    5,
+    7
+  ],
+  "_randomArmyActionDay": 1,
+  "_ministerActionDay": 5,
+  "_ministerDoAcitonPoint": 1000,
+  "_ransomProbs": [
+    30.0,
+    10.0,
+    5.0,
+    2.0
+  ],
+  "_leaderTrunToProb": 1.0,
+  "_strategyCost": 500,
+  "_exploreCost": 300,
+  "_aidCost": 50000,
+  "_tradingRationPerSeason": 100000,
+  "_weaponTypeDefault": [
+    0,
+    0,
+    1250,
+    0,
+    1300,
+    1400,
+    0,
+    2300,
+    1800,
+    0
+  ],
+  "_defaultRides": [
+    2301,
+    2397,
+    2398,
+    2399,
+    2400
+  ],
+  "_recoverHpBase": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "_recoverMaxHpRatio": [
+    0.032,
+    0.016,
+    0.008,
+    0.005
+  ],
+  "_countryPerishTransferRate": 30,
+  "_baseJobDays": 30,
+  "_twoOverThreeBaseJobDays": 20,
+  "_oneOverThreeBaseJobDays": 10,
+  "_halfBaseJobDays": 15,
+  "_oneOverSixBaseJobDays": 5,
+  "_baseExpForSFAction": 1000,
+  "_lordExpPercent": 50,
+  "_advisorExpPercent": 30,
+  "_jobExpPercent": 30,
+  "_customCountryStartMoney": 5000,
+  "_customCountryStartRation": 15000,
+  "_autoLeaderPowerRatio": 8.0
+}

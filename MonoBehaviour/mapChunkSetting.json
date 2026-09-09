@@ -1,0 +1,31 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -3086199754292897102
+  },
+  "m_Name": "mapChunkSetting",
+  "basePos": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "chunkSize": {
+    "x": 600.0,
+    "y": 375.0
+  },
+  "mcBounds": {
+    "leftTop": {
+      "x": -2,
+      "y": 1
+    },
+    "rightBottom": {
+      "x": 1,
+      "y": -2
+    }
+  }
+}

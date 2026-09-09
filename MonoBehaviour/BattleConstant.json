@@ -1,0 +1,117 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3146475332470267430
+  },
+  "m_Name": "BattleConstant",
+  "_sceneWidth": 520,
+  "_sceneDepth": 200,
+  "_sceneGridSize": 2,
+  "_sceneCenterGridWidth": 10,
+  "_sceneWallGridWidth": 40,
+  "_sceneEscapeGridWidth": 0,
+  "_sceneHorizontalLine": 100.0,
+  "_battleCountDowns": [
+    9999.0,
+    150.0,
+    300.0,
+    -1.0
+  ],
+  "_cityWarTimeMultiple": 3.0,
+  "_extralCityWarTime": 0.0,
+  "_battleCameraSpeed": 50.0,
+  "_battleCameraSwitchRange": 30,
+  "_battleCameraSwitchSpeed": 3,
+  "_moveStartSpeedVal": 0.5,
+  "_movePlusSpeedVal": 0.5,
+  "_reformationSpeedupTime": 2.0,
+  "_limitDamageMax": 10.0,
+  "_limitDamageInterval": 1.0,
+  "_dmgTurnToSoldierPercent": 0.5,
+  "_dmgTurnToSoldierValue": 50.0,
+  "_sandTroopGridWidth": 5,
+  "_sandCameraRotationPos": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.7
+  },
+  "_sandCameraStartPos": {
+    "x": -3.488,
+    "y": 2.15,
+    "z": -3.03
+  },
+  "_sandCameraXRange": {
+    "x": -1.4,
+    "y": 1.4
+  },
+  "_sandCameraSpeed": 2.0,
+  "_sandMoraleUp_ration": 1000,
+  "_sandMoraleUpMinMaxs": [
+    {
+      "x": 0,
+      "y": 1
+    },
+    {
+      "x": 1,
+      "y": 1
+    },
+    {
+      "x": 1,
+      "y": 2
+    },
+    {
+      "x": 2,
+      "y": 3
+    }
+  ],
+  "_sandEnemyInfo_mp": 0,
+  "_sandEnemyInfo_money": 100,
+  "_sandEnemyInfo_ration": 0,
+  "_archerMinAtkRange": 40.0,
+  "_damagedPercentages": [
+    0.51,
+    0.01,
+    0.0
+  ],
+  "_blueColormask": {
+    "rgba": 4293694316
+  },
+  "_redColormask": {
+    "rgba": 4285295852
+  },
+  "_otherColormask": {
+    "rgba": 4283559423
+  },
+  "_blueColormask_Leader": {
+    "rgba": 4293694316
+  },
+  "_redColormask_Leader": {
+    "rgba": 4285295852
+  },
+  "_otherColormask_Leader": {
+    "rgba": 4283559423
+  },
+  "_radarOurNormalColor": {
+    "rgba": 2164238876
+  },
+  "_radarOurHighlightColor": {
+    "rgba": 3237994644
+  },
+  "_radarEnemyNormalColor": {
+    "rgba": 2156616927
+  },
+  "_radarEnemyHighlightColor": {
+    "rgba": 3233779711
+  },
+  "_radarOtherNormalColor": {
+    "rgba": 2147534020
+  },
+  "_radarOtherHighlightColor": {
+    "rgba": 3288399871
+  }
+}

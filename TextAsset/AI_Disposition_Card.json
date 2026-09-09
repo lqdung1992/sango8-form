@@ -1,0 +1,11 @@
+[ 6,
+  0,
+  0,
+  ["id","attack_card","attack_value1","attack_value2","attack_increase","defense_card","defense_value1","defense_value2","defense_increase","retreat_card","retreat_value1","retreat_value2","retreat_increase","support_card","support_value1","support_value2","support_increase"],
+  [1,3,0,0,1,0,0,0,0,4,10,0,1,2,60,0,1],
+  [101,3,0,0,2,0,0,0,0,2,0,0,0.2,4,20,0,1],
+  [102,3,0,0,1,0,0,0,0,4,20,0,0.5,4,60,0,1],
+  [103,3,0,0,1.2,0,0,0,0,2,20,0,0.5,2,50,0,1],
+  [104,1,40,0,1,0,0,0,0,4,40,0,0.3,4,50,0,2],
+  [501,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0]
+]
