@@ -67,7 +67,15 @@ const otherData = lines.slice(3).map(line => {
         if (value.includes(',')) {
             // if has double quotes, remove double quotes and wrap with square brackets
             if (value.startsWith('"') && value.endsWith('"')) {
+                // if include "[" or "]" inside, remove them and wrap with square brackets
+                if (value.includes('[') || value.includes(']')) {
+                    return `[${value.slice(1, -1).replace(/\[/g, '').replace(/\]/g, '')}]`;
+                }
                 return `[${value.slice(1, -1)}]`;
+            }
+            // if include "[" or "]" inside, remove them and wrap with square brackets
+            if (value.includes('[') || value.includes(']')) {
+                return `[${value.replace(/\[/g, '').replace(/\]/g, '')}]`;
             }
             // if no double quotes, wrap with square brackets only
             return `[${value}]`;
@@ -87,8 +95,13 @@ const otherData = lines.slice(3).map(line => {
     });
 });
 
+// dump data info
+console.info("File input number of lines: " + firstLine);
+console.info("Re-calculate record number: " + (otherData.length -1));
+console.info("To fast check, get endline number of data - 4 = firstLine");
+
 // ghi lại file json array
-const finalJsonArray = [parseInt(firstLine), parseInt(secondLine), parseInt(thirdLine), ...otherData];
+const finalJsonArray = [otherData.length - 1, parseInt(secondLine), parseInt(thirdLine), ...otherData];
 fs.writeFileSync(outputFile, formatArrayRows(finalJsonArray));
 // re-format json: '"[' => '[' and ']"' => ']'
 const jsonContent = fs.readFileSync(outputFile, 'utf-8');
