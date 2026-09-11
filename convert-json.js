@@ -28,7 +28,8 @@ prefix += '\n 1 string m_Name = "' + filename + '"';
 prefix += '\n 1 string m_Script = "';
 const suffix = '"';
 const converted = content.replace(/\r\n/g, '\\n').replace(/\n/g, '\\n').replace(/\r/g, '\\n');
-const outputFile = `${inputFile}.txt`;
+// write into Output folder
+const outputFile = `Output/${filename}.txt`;
 // Replace first "[\n" => "["
 fs.writeFileSync(outputFile, prefix + converted.replace(/^\[\\n /, '[') + suffix);
 console.log(`✓ Converted: ${inputFile} -> ${outputFile}`);

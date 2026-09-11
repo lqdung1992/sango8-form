@@ -33,7 +33,8 @@ if (!inputFile) {
 const content = fs.readFileSync(inputFile, 'utf-8');
 // Xử lý cả CRLF (Windows) và LF (Linux)
 const jsonArray = JSON.parse(content.replace(/\r\n/g, '\n').replace(/\r/g, '\n'));
-const outputFile = `${inputFile}.csv`;
+let filename = inputFile.replace(/\.json$/, '').split(/[\\/]/).pop();
+const outputFile = `Output/${filename}.csv`;
 // Convert JSON array to CSV format
 let csvContent = '';
 csvContent += `"Number of lines","${jsonArray[0]}"\n`;

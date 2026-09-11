@@ -36,7 +36,9 @@ if (!inputFile) {
 
 const content = fs.readFileSync(inputFile, 'utf-8');
 // tsv to json array list
-const outputFile = `${inputFile.replace(/\.tsv$/, '')}.json`;
+let filename = inputFile.replace(/\.tsv$/, '').split(/[\\/]/).pop();
+// write into Output folder
+const outputFile = `Output/${filename}.json`;
 
 function formatArrayRows(data) {
     const lines = ['['];
