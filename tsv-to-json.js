@@ -88,4 +88,9 @@ const otherData = lines.slice(3).map(line => {
 // ghi lại file json array
 const finalJsonArray = [parseInt(firstLine), parseInt(secondLine), parseInt(thirdLine), ...otherData];
 fs.writeFileSync(outputFile, formatArrayRows(finalJsonArray));
+// re-format json: '"[' => '[' and ']"' => ']'
+const jsonContent = fs.readFileSync(outputFile, 'utf-8');
+const formattedJsonContent = jsonContent.replace(/"\[/g, '[').replace(/\]"/g, ']');
+fs.writeFileSync(outputFile, formattedJsonContent);
+
 console.log(`✓ Reverted TSV -> JSON: ${inputFile} -> ${outputFile}`);

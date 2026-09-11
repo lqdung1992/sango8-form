@@ -30,6 +30,7 @@ Sango/Kingdom Heroes 8 2.3.1 from UserJoy
 ### Bước 2: Chuyển đổi để chỉnh sửa
 * Chạy công cụ `json-to-csv.js` để chuyển tệp JSON vừa trích xuất thành định dạng CSV.
 * Tải tệp CSV này lên **Google Sheets** (hoặc Excel) để tiến hành chỉnh sửa nội dung/dịch thuật một cách dễ dàng.
+* Import loại plan text, không convert.
 
 ### Bước 3: Xuất dữ liệu sau chỉnh sửa
 * Sau khi chỉnh sửa xong trên Google Sheets, hãy xuất tệp dưới dạng **TSV** (.tsv).
