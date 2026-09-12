@@ -98,7 +98,7 @@ const otherData = lines.slice(3).map(line => {
 // dump data info
 console.info("File input number of lines: " + firstLine);
 console.info("Re-calculate record number: " + (otherData.length -1));
-console.info("To fast check, get endline number of data - 4 = firstLine");
+console.info("To fast check, end data - header line = firstLine");
 
 // ghi lại file json array
 const finalJsonArray = [otherData.length - 1, parseInt(secondLine), parseInt(thirdLine), ...otherData];
