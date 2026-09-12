@@ -80,6 +80,10 @@ const otherData = lines.slice(3).map(line => {
             // if no double quotes, wrap with square brackets only
             return `[${value}]`;
         }
+        // if "0", not convert to number, keep as string
+        if (value === '0' && value.startsWith('"') && value.endsWith('"')) {
+            return value;
+        }
 
         // if number, boolean, no double quotes
         if (value !== '' && !isNaN(value)) {

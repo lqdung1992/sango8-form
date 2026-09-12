@@ -26,7 +26,9 @@ let filename = inputFile.replace(/\.json$/, '').split(/[\\/]/).pop();
 let prefix = '0 TextAsset Base';
 prefix += '\n 1 string m_Name = "' + filename + '"';
 prefix += '\n 1 string m_Script = "';
-const suffix = '"';
+// write into Output folder
+// endline with newline \n
+const suffix = '"\n';
 const converted = content.replace(/\r\n/g, '\\n').replace(/\n/g, '\\n').replace(/\r/g, '\\n');
 // write into Output folder
 const outputFile = `Output/${filename}.txt`;
