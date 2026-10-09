@@ -356,6 +356,5 @@
   "_advisorExpPercent": 30,
   "_jobExpPercent": 30,
   "_customCountryStartMoney": 5000,
-  "_customCountryStartRation": 15000,
-  "_autoLeaderPowerRatio": 8.0
+  "_customCountryStartRation": 15000
 }
